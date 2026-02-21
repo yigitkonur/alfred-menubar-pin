@@ -1,6 +1,6 @@
-# Write Text into Menubar (BitBar + Alfred)
+# Alfred Menubar Pin (BitBar + Alfred)
 
-Do you deal with tens of different tasks in a hour and end up with forgetting what you do 10 seconds ago? No prob! 
+Do you deal with tens of different tasks in a hour and end up with forgetting what you do 10 seconds ago? No prob!
 
 ![How To Use](https://cldup.com/c1EScHuMje.gif "With Animated GIFs")
 
@@ -10,19 +10,19 @@ You can write a text string to remember which will stick into your menubar - so 
 
  * Make sure that you have a BitBar extension.
  * You BitBar plugin folder have to be installed \~/Documents/Bitbar-Plugins/
- * Drag and drop your BitBar plugin into \~/Documents/Bitbar-Plugins/write-into-menubar-bitbar-plugin.1s.sh
+ * Drag and drop your BitBar plugin into \~/Documents/Bitbar-Plugins/alfred-menubar-pin.1s.sh
  * You need to run this Terminal Command to add chmod into your Bitbar Plugin
-	  
+
 ```bash
-chmod +x ~/Documents/Bitbar-Plugins/write-into-menubar-bitbar-plugin.1s.sh
+chmod +x ~/Documents/Bitbar-Plugins/alfred-menubar-pin.1s.sh
 ```
- 
+
 ### Customization
- 
+
  You can also config this plugin according to you needs - just change variables in BitBar plugin:
- 
+
  * You can change text color by changing: quote\_color="black"
- * You can set length of string by changing: max\_chars="30" 
+ * You can set length of string by changing: max\_chars="30"
 
 
 ### Dependencies
